@@ -21,7 +21,6 @@ form.addEventListener("submit", (event) => {
     const clearButton = document.querySelector('#clear');
     clearButton.addEventListener('click', clearInput());
 
-});
     sendButton.addEventListener('click', () => {
         fetch(`http://46.21.248.81:3001/user`, {
                 method: 'POST',
